@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 110px 0 150px 0;
   }
 }
 
@@ -562,6 +562,11 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+
+  .contact-details-list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .team-member {
@@ -683,4 +688,12 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.contact-details {
+  color: white
+}
+
+.contact-details ul {
+  list-style-type: none;
 }
